@@ -1,0 +1,88 @@
+@media (min-width: 757px) {
+
+  main{
+    inline-size: 75%;
+    margin: auto;
+  }
+
+  .id{
+    display: flex;
+    margin: auto;
+
+    .write-up{
+      margin-inline-start: 30px;
+
+      .writing{
+        margin-block-start: 40px;
+
+        .writing-two{
+          margin-block-start: 20px;
+        }
+      }
+    }
+
+    .info{
+      display: flex;
+      justify-content: space-between;
+
+      h4{
+        margin-block-end: 10px;
+      }
+
+      p{
+        margin-block-end: 10px;
+      }
+    }
+  }
+
+  .skills{
+    grid-column: 1/5;
+    block-size: 80%;
+
+    .items{
+      margin-block-start: 15px;
+    }
+
+    .item{
+      margin-block-end: 10px;
+      font-size: 15px;
+    }
+  }
+
+  .section-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .blog-mobile{
+    display: none;
+  }
+
+  .blog-desktop{
+    grid-column: 5/13;
+    display: flex;
+    gap: 2rem;
+
+    .title{
+      inline-size: 25%;
+    }
+
+    h4{
+      margin-block-end: 30px;
+    }
+
+    h3{
+      margin-block-end: 20px;
+    }
+
+    .first-text{
+      margin-block-end: 15px;
+    }
+
+    .second-text{
+      margin-block-end: 30px
+    }
+  }
+
+}

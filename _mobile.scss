@@ -1,0 +1,93 @@
+@media (max-width: 756px) {
+
+  main{
+    inline-size: 80%;
+    margin: auto;
+  }
+
+  .id{
+
+    img{
+      inline-size: 250px;
+    }
+
+    .write-up{
+      margin-block-start: 20px;
+
+      .name{
+        margin-block-end: 5px;
+      }
+
+      .role{
+        margin-block-end: 15px;
+      }
+
+      .mail{
+        margin-block-end: 5px;
+      }
+
+      .tel{
+        margin-block-end: 20px;
+      }
+
+      .writing-two{
+        display: none;
+      }
+    }
+
+  }
+
+  .skills{
+
+    .title{
+      font-size: 15px;
+    }
+
+    .items{
+      margin-block-start: 10px;
+      display: flex;
+      gap: 1rem;
+    }
+
+    .item{
+      font-size: 12px;
+      margin-block-end: 4px;
+    }
+  }
+
+  .blog{
+    margin-block-start: 20px;
+  }
+
+  .blog-desktop{
+    display: none;
+  }
+
+  .blog-mobile{
+    margin-block-start: 20px;
+    block-size: auto;
+    grid-column: 5/13;
+
+    h3{
+      margin-block-end: 30px;
+    }
+
+    h4{
+      margin-block-end: 15px;
+    }
+
+    .info{
+      margin-block-end: 20px;
+    }
+
+    .first-text{
+      margin-block-end: 15px;
+    }
+
+    .second-text{
+      margin-block-end: 30px;
+    }
+  }
+
+
+}

@@ -1,0 +1,87 @@
+@import "config";
+@import "desktop";
+@import "mobile";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: $gray-three;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.id{
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 10px;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+
+  .info{
+
+    h4{
+      color: $gray-two;
+    }
+
+    p{
+      font-weight: bold;
+      color: $gray-three;
+      font-size: 14px;
+    }
+  }
+
+  img{
+    border-radius: 12px;
+  }
+
+  .writing{
+    font-size: 16px;
+    color: $gray-three;
+    font-weight: bold;
+  }
+
+}
+
+.skills{
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 12px;
+  color: $gray-two;
+
+  .item{
+    font-weight: bold;
+  }
+
+  .title{
+    font-weight: bold;
+  }
+}
+
+.blog{
+  background-color: #FFFFFF;
+  padding-inline-start: 10px;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  border-radius: 10px;
+
+  h4{
+    color: $gray-four;
+  }
+
+  h3{
+    color: $gray-one;
+  }
+
+  p{
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  a{
+    text-decoration: none;
+    color: #2F80ED;
+  }
+}

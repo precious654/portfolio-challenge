@@ -77,11 +77,88 @@ body{
 
   p{
     font-size: 14px;
-    font-weight: bold;
   }
 
   a{
     text-decoration: none;
     color: #2F80ED;
+  }
+}
+
+.hobbies{
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 12px;
+
+  div{
+    margin-block-end: 20px;
+  }
+
+  img{
+    border-radius: 12px;
+    margin-block-end: 5px;
+  }
+
+  h3{
+    margin-block-end: 50px;
+    color: $gray-two;
+  }
+
+  h4{
+    margin-block-end: 10px;
+    color: $gray-one;
+  }
+
+  p{
+    color: $gray-three;
+    font-size: 15px;
+  }
+}
+
+.experiences{
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .date{
+    margin-block-start: 6px;
+  }
+
+  h4{
+    color: $gray-one;
+    margin-block-start: 10px;
+    margin-block-end: 20px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+
+}
+
+.projects{
+  margin-block-start: 20px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 10px;
+
+  button:hover{
+    background-color: #2F80ED;
+    color: #FFFFFF;
+    border: none;
+  }
+
+  p{
+    color: $gray-two;
+    font-weight: bold;
+    margin-block-end: 20px;
+  }
+
+  .button{
+    background-color: #FFFFFF;
+    color: $gray-two;
   }
 }

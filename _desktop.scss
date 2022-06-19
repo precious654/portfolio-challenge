@@ -1,4 +1,4 @@
-@media (min-width: 757px) {
+@media (min-width: 967px) {
 
   main{
     inline-size: 75%;
@@ -37,14 +37,18 @@
 
   .skills{
     grid-column: 1/5;
-    block-size: 80%;
+
+    .title{
+      margin-block-end: 40px;
+      margin-block-start: 10px;
+    }
 
     .items{
       margin-block-start: 15px;
     }
 
     .item{
-      margin-block-end: 10px;
+      margin-block-end: 20px;
       font-size: 15px;
     }
   }
@@ -60,12 +64,21 @@
   }
 
   .blog-desktop{
+
     grid-column: 5/13;
-    display: flex;
-    gap: 2rem;
+    grid-row: 1/3;
 
     .title{
-      inline-size: 25%;
+      inline-size: 75%;
+    }
+
+    .top{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .bottom{
+      margin-block-start: 50px;
     }
 
     h4{
@@ -82,6 +95,32 @@
 
     .second-text{
       margin-block-end: 30px
+    }
+  }
+
+  .hobbies{
+    grid-row: 2/4;
+    grid-column: 1/5;
+  }
+
+  .experiences{
+    grid-row: 3/4;
+    grid-column: 5/13;
+
+    .item{
+      display: flex;
+      gap: 2rem;
+    }
+
+    .text{
+      margin-inline-start: 120px;
+    }
+  }
+
+  .projects{
+
+    button{
+      margin-inline-start: 20px;
     }
   }
 

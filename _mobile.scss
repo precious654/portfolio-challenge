@@ -1,4 +1,4 @@
-@media (max-width: 756px) {
+@media (max-width: 966px) {
 
   main{
     inline-size: 80%;
@@ -89,5 +89,20 @@
     }
   }
 
+  .hobbies{
+    margin-block-start: 20px;
+  }
+
+  .experiences{
+    margin-block-start: 20px;
+  }
+
+  .projects{
+
+    button{
+      display: block;
+      margin-block-end: 20px;
+    }
+  }
 
 }

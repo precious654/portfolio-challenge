@@ -46,7 +46,7 @@
     .items{
       margin-block-start: 10px;
       display: flex;
-      gap: 1rem;
+      justify-content: space-between;
     }
 
     .item{

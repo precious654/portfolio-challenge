@@ -40,7 +40,7 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- Where can I see your demo?
+- Where can I see your demo? portfolio-attempt.surge.sh
 - What was your experience? It was a nice experience
 - What have you learned/improved? I have improved my CSS with these challenges
 - Your wisdom? :) Keep practicing, the only way to be better at coding is to code

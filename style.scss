@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: $gray-three;
+  background-color: #F2F2F2;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -161,4 +161,71 @@ body{
     background-color: #FFFFFF;
     color: $gray-two;
   }
+}
+
+.challenges{
+  display: flex;
+  gap: 2rem;
+  margin-block-start: 20px;
+
+  h3{
+    color: $gray-one;
+    margin-block-end: 10px;
+  }
+
+  .challenge{
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+  }
+
+  .desc{
+    font-size: 14px;
+  }
+
+  .buttons{
+    margin-block-start: 20px;
+
+    .demo{
+      background-color: #2F80ED;
+      color: #FFFFFF;
+      border: none;
+    }
+
+    .code{
+      background-color: #FFFFFF;
+      border: 2px solid #2F80ED;
+      color: #2F80ED;
+    }
+
+    button{
+      margin-inline-end: 10px;
+    }
+  }
+
+  .skill{
+    display: flex;
+    gap: 1rem;
+    color: $gray-two;
+    font-weight: bold;
+    margin-block-start: 20px;
+    margin-block-end: 30px;
+  }
+}
+
+
+footer{
+    text-align: center;
+    margin-block-end: 10px;
+
+    a{
+      text-decoration: none;
+      color: inherit;
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    p{
+      font-size: 12px;
+    }
 }
